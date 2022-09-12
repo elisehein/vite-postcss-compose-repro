@@ -1,0 +1,31 @@
+{
+  "name": "vite-postcss-compose-repro",
+  "version": "0.0.1",
+  "description": "Reproduction of a bug where PostCSS plugins aren't applied to composed stylesheets built with Vite.",
+  "scripts": {
+    "dev": "vite --config vite.config.js --host",
+    "build": "vite build",
+    "preview": "npm run build; vite preview --port 8000 --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisehein/vite-postcss-compose-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "@vitejs/plugin-react": "^1.0.0",
+    "classnames": "^2.2.6",
+    "postcss-calc": "^8.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^7.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^3.0.2"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "blackwell-web@4.1.0"
+}

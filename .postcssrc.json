@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "postcss-preset-env": {
+      "browsers": "defaults, ie >= 11",
+      "importFrom": [
+        "./src/variables.css"
+      ]
+    },
+    "postcss-nested": { },
+    "postcss-calc": { }
+  }
+}

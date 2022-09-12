@@ -1,0 +1,10 @@
+.foo {
+  composes: component from "./component.module.css";
+  /* A fallback is added here */
+  color: var(--color-blue);
+
+  /* This nesting is deconstructed */
+  .nested-bar {
+    width: 100%;
+  }
+}

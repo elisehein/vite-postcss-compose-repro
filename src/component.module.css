@@ -1,0 +1,16 @@
+/* All below comments apply only when this file is imported
+ * using composes:
+ * If this file is imported in JS directly, or linked to index.html,
+ * PostCSS is applied. */
+.component {
+  /* A fallback value isn't added as per
+   * postcss-preset-env importPaths */
+  color: var(--color-red);
+
+  /* This nesting is not transformed to
+   *  .component .nested-class { }
+   * using postcss-nested, resulting in invalid CSS */
+  .nested-component-class {
+    width: 100%;
+  }
+}
