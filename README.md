@@ -11,7 +11,7 @@ npm run dev
 
 2. Open app in browser and inspect dynamically added `<style>` tags
 
-![./screenshot.png](Screenshot of broken styles)
+![Screenshot of broken styles](./screenshot.png)
 
 #### Expected result
 
