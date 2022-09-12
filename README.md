@@ -1,4 +1,6 @@
-### Steps to reproduce in dev mode
+This reproduces a behaviour in Vite where PostCSS isn't applied to styles included via `composes`.
+
+### Steps to reproduce
 
 1. Install dependencies & run app
 
@@ -59,3 +61,7 @@ The styles included via `composes` are not processed by PostCSS. They are includ
   width: 100%;
 }
 ```
+
+(I believe the class names of the composed class *are* transformed because in this reproduction I also import `component.module.css` separately in `index.jsx`).
+
+The same bug can be observed in the production build.

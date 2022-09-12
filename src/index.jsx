@@ -5,11 +5,6 @@ import {
   nestedBar
 } from "./main.module.css";
 
-import {
-  component,
-  nestedComponentClass
-} from "./component.module.css"
-
 function App() {
   return (
     <>
@@ -21,10 +16,6 @@ function App() {
           <code>.nested-class</code>
         </p>
       </div>
-      <p className={component}>
-        <code>.component</code> via direct import in JS
-        <code className={nestedComponentClass}>.nested-component-class</code>
-      </p>
     </>
   );
 }
